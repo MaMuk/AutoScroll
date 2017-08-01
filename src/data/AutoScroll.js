@@ -185,6 +185,7 @@ chrome.storage.local.get(defaults, function (options) {
   inner.style.setProperty("height", "100%")
   inner.style.setProperty("z-index", "2147483647") // 32-bit signed int
   inner.style.setProperty("background-repeat", "no-repeat")
+  inner.style.setProperty("pointer-events", "none")
 
   shadow.appendChild(inner)
 
